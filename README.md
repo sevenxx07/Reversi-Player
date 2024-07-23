@@ -14,13 +14,13 @@ filled with stones or if no player can place their stone. The winner of the game
 # Solution of the problem
 
 The player is deciding every round which move to make according to values of the tiles. I assigned a value to every tile of the playing area 
-which is constructed as 2D array:
-                            [[8, 2, 6, 4, 4, 6, 2, 8], 
-                            [2, 0, 4, 4, 4, 4, 0, 2],
-                            [6, 4, 6, 6, 6, 6, 4, 6],
-                            [4, 4, 6, 6, 6, 6, 4, 4],
-                            [4, 4, 6, 6, 6, 6, 4, 4],
-                            [6, 4, 6, 6, 6, 6, 4, 6],
-                            [2, 0, 4, 4, 4, 4, 0, 2],
-                            [8, 2, 6, 4, 4, 6, 2, 8]]
+which is constructed as 2D array:<br />
+                          &emsp;&emsp;&emsp;  [[8, 2, 6, 4, 4, 6, 2, 8], <br />
+                          &emsp;&emsp;&emsp;  [2, 0, 4, 4, 4, 4, 0, 2],<br />
+                          &emsp;&emsp;&emsp;  [6, 4, 6, 6, 6, 6, 4, 6],<br />
+                          &emsp;&emsp;&emsp;  [4, 4, 6, 6, 6, 6, 4, 4],<br />
+                          &emsp;&emsp;&emsp;  [4, 4, 6, 6, 6, 6, 4, 4],<br />
+                          &emsp;&emsp;&emsp;  [6, 4, 6, 6, 6, 6, 4, 6],<br />
+                          &emsp;&emsp;&emsp;  [2, 0, 4, 4, 4, 4, 0, 2],<br />
+                          &emsp;&emsp;&emsp;  [8, 2, 6, 4, 4, 6, 2, 8]]<br />
 It is especially advantageous to occupy the corners, because the stone in the corner cannot be turned in any way (there is no way to close it between the opponent's stones).
