@@ -9,3 +9,4 @@ it is possible to close more than one row. This can be done horizontally, vertic
 such a way that it takes at least one of the opponent's stones, the opponent plays automatically. The game ends when the entire board is 
 filled with stones or if no player can place their stone. The winner of the game is the player with more stones on the board than the opponent.
 
+<img width="150" alt="reversi" src="https://github.com/user-attachments/assets/4528fb01-a92b-4bc4-83ea-dc8573ebd06f">
