@@ -10,3 +10,17 @@ such a way that it takes at least one of the opponent's stones, the opponent pla
 filled with stones or if no player can place their stone. The winner of the game is the player with more stones on the board than the opponent.
 
 <img width="150" alt="reversi" src="https://github.com/user-attachments/assets/4528fb01-a92b-4bc4-83ea-dc8573ebd06f">
+
+# Solution of the problem
+
+The player is deciding every round which move to make according to values of the tiles. I assigned a value to every tile of the playing area 
+which is constructed as 2D array:
+                            [[8, 2, 6, 4, 4, 6, 2, 8], 
+                            [2, 0, 4, 4, 4, 4, 0, 2],
+                            [6, 4, 6, 6, 6, 6, 4, 6],
+                            [4, 4, 6, 6, 6, 6, 4, 4],
+                            [4, 4, 6, 6, 6, 6, 4, 4],
+                            [6, 4, 6, 6, 6, 6, 4, 6],
+                            [2, 0, 4, 4, 4, 4, 0, 2],
+                            [8, 2, 6, 4, 4, 6, 2, 8]]
+It is especially advantageous to occupy the corners, because the stone in the corner cannot be turned in any way (there is no way to close it between the opponent's stones).
